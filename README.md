@@ -195,6 +195,7 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
 现在修复bug，需要把“Git is free software ...”改为“Git is a free software ...”，然后提交：
 
 > git add readme.txt 
+
 > git commit -m "fix bug 101"
 
     [issue-101 cc17032] fix bug 101
@@ -280,6 +281,8 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
 命令git tag可以查看所有标签；
 
 用git show tagname查看标签信息：
+
+> git show v0.1
 
 如果标签打错了，也可以删除：
 
