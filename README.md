@@ -127,6 +127,17 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
 把本地仓库的内容推送到GitHub仓库
 > git push -u origin master
 
+
+    Either specify the URL from the command-line or configure a remote repository using
+
+        git remote add <name> <url>
+
+    and then push using the remote name
+
+        git push <name>
+
+
+
 现在起，只要本地作了提交，就可以通过命令：
 
 > git push origin master
