@@ -4,6 +4,10 @@ ref: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c
 
 airzen Learn `git` notes 
 
+### git ignore 大全
+
+https://github.com/github/gitignore/
+
 
 ====
 
