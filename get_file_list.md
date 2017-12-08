@@ -20,6 +20,12 @@ M       markdown/goodsites.md
 M       php/api_uin64_diff.php
 
 ```
+  获得两个提交点之间的纯文件列表
+>git diff `4421f2c` `fd1ab3` --name-only
+```
+php/api_uin64_diff.php
+tmp/redis-migration.php
+```
 
 ### 获得工作区变化的文件列表
 >git status -s
