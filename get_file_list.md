@@ -1,3 +1,4 @@
+
 ### Git如何获得两个版本间所有变更的文件列表
 >git diff --name-status `HEAD~2` `HEAD~3`
 
@@ -15,4 +16,6 @@ M       php/api_uin64_diff.php
 
 ```
 
+### 获得工作区变化的文件列表
+>git status -s
 
