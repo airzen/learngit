@@ -18,3 +18,8 @@ gitk <filepath.ext>
 ```bash
 gitk --follow <filename>
 ```
+## 删除github上的远程分支
+
+```bash
+git push origin 【空格】【冒号】【你的分支名字】
+```
