@@ -1,22 +1,23 @@
-# 查看某个文件的所有修改历史
+# 查看指定目录或文件的所有修改历史
 
 ## 在命令行下查看
 
-``` bash
-git log -p <filepath.ext>
-```
+git log -p `<path>`... shows commits that touch the specified paths, and diffs about the same specified paths
 
+``` bash
+git log -p <path>
+```
 
 ## 在gui环境中查看
 
   查看某个文件
 ```bash
-gitk <filepath.ext>
+gitk <path>
 ```
 
   查看某个文件，包括曾改名 to follow filename past renames
 ```bash
-gitk --follow <filename>
+gitk --follow <path>
 ```
 ## 删除github上的远程分支
 
