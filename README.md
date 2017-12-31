@@ -122,8 +122,9 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
 > git diff HEAD -- readme.txt 
 
 #####丢弃工作区修改
-你可以发现，Git会告诉你，git checkout -- file可以丢弃工作区的修改：
+![commit_rollback](https://raw.githubusercontent.com/airzen/learngit/master/commit_and_rollback.png)
 
+你可以发现，Git会告诉你，git checkout -- file可以丢弃工作区的修改：
 
 #####有三种情况
 ######1、当readme.txt 已经修改， 但是没有添加到暂存区时，
