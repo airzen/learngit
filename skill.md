@@ -24,3 +24,9 @@ gitk --follow <path>
 ```bash
 git push origin 【空格】【冒号】【你的分支名字】
 ```
+
+## 修订`上次`提交的注释
+```bash
+git commit --amend
+```
+
