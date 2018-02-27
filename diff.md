@@ -14,6 +14,9 @@
 
     比较暂存区与本地仓库
     git diff --cached
+    
+    比较工作区与本地仓库
+    git diff HEAD -- [FILE]
 
     比较本地仓库与远程仓库
     git diff master origin/master
