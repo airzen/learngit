@@ -414,6 +414,9 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
 ## 对某个tag版本进行打包操作
 > git archive -v --format=zip v1.19  > v1.19.zip
 
+## 对当前分支最新版本打包操作
+> git archive -o /savetopath/v1.19.zip HEAD
+
 ## 对当工作区有变化的文件进行打包
 包含 已修改未添加到暂存，以及未进行tracke 的新文件进行打包
 
