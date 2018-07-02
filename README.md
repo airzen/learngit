@@ -387,7 +387,12 @@ git checkout -- file命令中的“--”很重要，没有“--”，就变成�
     忽略某些文件时，需要编写.gitignore。
     .gitignore文件本身要放到版本库里，并且可以对.gitignore做版本管理！
 
-
+# 更新.gitignore后,无效问题,请清理git缓存,如下
+```
+git rm -r --cached .
+git add .
+git commit -m 'update .gitignore'
+```
 
 #### 别名
     果敲git st就表示git status那就简单多了，当然这种偷懒的办法我们是极力赞成的。
@@ -425,3 +430,5 @@ upgrade.sh
 rm -f upgrade.tar.gz
 tar -zcvf upgrade.tar.gz `git status -s|cut -c4-`
 ```
+
+
