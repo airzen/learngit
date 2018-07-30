@@ -20,3 +20,20 @@
 
     比较本地仓库与远程仓库
     git diff master origin/master
+    
+### 差异变化的文件名
+    比较上一个和当前之间的变化
+    git diff --name-only HEAD^ HEAD
+    
+    比较从v1.0 到当前点之间的变化
+    git diff --name-only v1.0 HEAD
+    
+    比较两个tag之间的变化
+    git diff --name-only v1.0 v2.0
+    
+    比较两个节点间变化
+    git diff --name-only <node1> <node2>
+    
+    
+    
+    
