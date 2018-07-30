@@ -430,5 +430,13 @@ upgrade.sh
 rm -f upgrade.tar.gz
 tar -zcvf upgrade.tar.gz `git status -s|cut -c4-`
 ```
+## 两个版本间的变化文件打包
 
+```
+git diff 61d2112 f3c0f99 --name-only | xargs zip update.zip
+
+git archive --format=zip HEAD `git diff --name-only 61d2112 f3c0f99` > a.zip
+
+tar -zcvf patch.tgz `git diff --name-only 61d2112 f3c0f99`
+```
 
